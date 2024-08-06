@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/test}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:root1234}
+  application:
+    name: TestTask
+translation:
+  api:
+    headers:
+      x-rapidapi-key: 496e2d2afemsh1182b93c6dbcd80p17e2a0jsn2ae258b0d224
+      x-rapidapi-host: translated-mymemory---translation-memory.p.rapidapi.com
+    uri: https://translated-mymemory---translation-memory.p.rapidapi.com
